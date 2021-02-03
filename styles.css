@@ -1,0 +1,25 @@
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 80%;
+  background: rgba(255, 120, 120, 0.315);
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu ul li {
+  padding: 0px 30px;
+  list-style-type: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
